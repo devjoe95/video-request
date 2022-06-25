@@ -1,7 +1,7 @@
 {
   "name": "video-requests-api",
   "version": "1.0.0",
-  "author": "Medhat Dawoud <@med7atdawoud>",
+  "author": "Dev Joe",
   "dependencies": {
     "bluebird": "^3.7.2",
     "body-parser": "^1.19.0",

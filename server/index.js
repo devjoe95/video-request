@@ -9,6 +9,7 @@ const mongoose = require('./models/mongo.config');
 
 if (!Object.keys(mongoose).length) return;
 
+app.use(express.json())
 app.use(cors());
 
 app.use(bodyParser.urlencoded({ extended: true }));
